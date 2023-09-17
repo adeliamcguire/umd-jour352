@@ -1,0 +1,29 @@
+h1{
+    color: #964B00;
+}
+
+a:link{
+    color: blue ;
+}
+
+a:visited {
+    color: purple;
+}
+
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main{
+    font-size: .75em;
+}
+
+.headers{
+    color: #D39D6B;
+}
+
+footer {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+    color: #964B00;
+}
