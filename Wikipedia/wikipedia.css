@@ -1,0 +1,27 @@
+h1{
+    letter-spacing: .1cm;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size:xx-large;
+    font: 900;
+    color: #D3A061  
+ 
+}
+h2{
+    color: #523E25;
+    font-family: 'Times New Roman', Times, serif;
+}
+h3{
+    color: brown;
+}
+header{ 
+    font-family: 'Times New Roman', Times, serif;
+    color:#523E25
+}
+main{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+img{
+ border: 5px solid #555;
+}
