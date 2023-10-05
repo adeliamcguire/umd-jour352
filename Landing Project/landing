@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--meta info-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--seo fields-->
+    <title></title>
+    <meta name="description" content="">
+    <!--fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mooli&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"rel="stylesheet">
+    <!--css-->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<link rel="stylesheet" href="css/landing.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="row justify-content-between align-items-center">
+                <div class="col-md-4">
+                    <h1>Yogi</h1>
+            </div>
+            <div class="col-md-4">
+            <p>The Number One Guided Online Yoga Application</p>
+            </div>
+            <ul class="nav justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">CLASSES</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">DOWNLOAD NOW</a>
+                </li>
+            </ul>
+            </div>
+        </header>
+    <main>
+        <section class="top"> 
+            <img src="https://images.pexels.com/photos/3823039/pexels-photo-3823039.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+             alt="Yoga pose" class="img-fluid">
+            <h2>Professional Yoga Classes at the Click of a Button</h2>
+            <p>Diverse varieties to fit any ability and level, from yoga flow to power yoga</p>
+         </section>
+         <div class="container">
+            <section class="menu">
+                <div class="row justify-content-between">
+                    <div class="col-lg-3">
+                        <img src="https://images.pexels.com/photos/4151293/pexels-photo-4151293.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                         alt="pose" class="img-fluid">
+                         <h3>Yoga Varieties</h3>
+                         <p>What type of yoga is best for you?</p>
+                    </div>
+                     <div class="col-lg-3">
+                        <img src="https://images.pexels.com/photos/5384538/pexels-photo-5384538.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                         alt="group yoga" class="img-fluid"> 
+                         <h3>Benefits of Yogi</h3>
+                         <p>Why the flexibility and ease of Yogi is perfect for you!</p>
+                    </div>
+                    <div class="col-lg-3">
+                        <img src="https://images.pexels.com/photos/4325494/pexels-photo-4325494.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
+                        alt="phone" class="img-fluid">
+                        <h3>Sign Up Today</h3>
+                        <p>Starting Yogi classes is easy and free. Download our app today!</p>
+                    </div>
+                </section>
+                <section class="about">
+                    <div class="row align-items-center">
+                        <h2>The Faces Behind Yogi</h2>
+                        <div class="col-md-4">
+                            <img src="https://images.pexels.com/photos/8436400/pexels-photo-8436400.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
+                            alt="Yogi group" class="img-fluid">
+                        </div>
+                        <div class="col-md-8">
+                            <p> Hi, my name is Adelia McGuire. I am a 19-year-old undergraduate student at the University of Maryland.
+
+                                In 2021, I founded the online application, Yogi.
+                                <br>
+                                I have always been passionate about yoga; my entire life, yoga has been a large part of my routine.
+                                I appreciate the benefits which yoga brings to a person's mind, body, and soul. I believe yoga should be incorporated into everyone's day.
+                                <br>
+                                During the pandemic, exercise took a new form. With in-person classes being canceled, people had to find new ways to attend guided workouts. I found myself frequently utilizing the Peloton app to instruct me through workouts, yet when it came time to do yoga, I was on my own. There was no app that allowed you to take a virtual, live yoga class.
+                                <br>
+                                Working together with a group of six other yoga lovers, Yogi was formed. This year marks the 3rd year that Yogi has been fully operational. Since its founding, Yogi has grown to reach a larger audience every single year.
+                                <br>
+                                The Yogi team is so grateful to bring virtual yoga classes to the public!
+                                <br>
+                                Whether your journey with yoga is just begining or you are experienced in the practice, Yogi is an inclusive app for all abilities! Use the link below to download our app today and browse the arrangement of classes we have available!  
+                                <a href="https://www.apple.com/app-store/"></a>
+                         </p>
+                        </div>
+                    </section>
+                    <section class="instructors">
+                        <h2>The Yogi Instructors</h2>
+                        <p>Our Yogi instructors love yoga and their ability to help others engage in yoga in a virtual environment</p>
+                        <div class="col-md-3">
+                            <img src="https://images.pexels.com/photos/7670047/pexels-photo-7670047.jpeg?auto=compress&cs=tinysrgb&w=1200" 
+                            alt="instructor" class="img-fluid">
+                            <div class="row justify-content-evenly">
+                                <div class="col-md-3">
+                                    <img src="images/placeholder.svg" alt="Placeholder" class="img-fluid">
+                                    <p>Instructor 1</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="images/placeholder.svg" alt="Placeholder" class="img-fluid">
+                                    <p>Instructor 2</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="images/placeholder.svg" alt="Placeholder" class="img-fluid">
+                                    <p>Instructor 3</p>
+                                </div>
+                            </div>
+                            <div class="row justify-content-evenly">
+                                <div class="col-md-3">
+                                    <img src="images/placeholder.svg" alt="Placeholder" class="img-fluid">
+                                    <p>Instructor 4</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="images/placeholder.svg" alt="Placeholder" class="img-fluid">
+                                    <p>Instructor 5</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="images/placeholder.svg" alt="Placeholder" class="img-fluid">
+                                    <p>Instructor 6</p>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </main>
+                <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+                    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+                    crossorigin="anonymous"></script>
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+                    integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+                    crossorigin="anonymous"></script>
+            </body>
+            </html>

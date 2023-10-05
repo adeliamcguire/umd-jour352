@@ -1,0 +1,73 @@
+body{
+    font-size:18px;
+    font-family: 'Barlow', sans-serif;
+}
+
+h1{
+    font-family: 'Barlow', sans-serif;
+    letter-spacing:-6px;
+    text-transform: uppercase;
+}
+
+h1,
+h2,
+h3{
+    color:plum;
+    text-transform: capitalize;
+}
+h2,
+h3{
+    text-align: center;
+}
+
+h3{
+    font-size: 2em;
+}
+header,
+section{
+    margin: 2em 0;
+}
+
+/* header section w/ brand, txt and nav */
+
+header,
+.top,
+.menu, 
+.instructors{
+    text-align: center;
+}
+
+.top img{
+    padding: 0 0 4em 0;
+}
+
+
+/* nav links */
+.nav-link{
+    color:#26717b;
+}
+.nav-link:hover{
+    color:#528c7e;
+}
+
+/* three-column block */
+
+.menu img{
+    margin: 2em 0;
+}
+
+/* about section */
+
+.about{
+    background: rgb(192, 215, 221);
+    padding: 1em;
+}
+
+img{
+    margin:0 auto;
+    display: block;
+}
+
+.instructors .col-md-3 {
+    margin: 1em 0;
+} 
