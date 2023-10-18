@@ -1,0 +1,286 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Portfolio Website-Adelia</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- bootstrap CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"></script>
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/31149d48b0.js" crossorigin="anonymous"></script>
+  <!-- linking css file -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- navbar -->
+    <!-- https://getbootstrap.com/docs/5.2/components/navbar/ -->
+    <!-- Add class of bg-light to nav element -->
+    <nav class="navbar navbar-expand-lg fixed-top navbarScroll navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Adelia</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Resume</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Article Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+                
+            </div>
+        </div>
+    </nav>
+    
+    <!-- main banner -->
+    <!-- https://getbootstrap.com/docs/5.2/layout/containers/ -->
+    <!-- https://getbootstrap.com/docs/5.2/layout/grid/ -->
+    <section class="container-fluid section bgimage" id="home">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 header_text">
+                <h2 class="header_title">Adelia McGuire</h2>
+                <p class="header_desc"><b>Undergraduate journalism major and business minor at the University of Maryland</b></p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- about section -->
+    <section class="container mt-4 pt-4 section" id="about">
+        <h1 class="text-center">About Me</h1>
+        
+        <div class="row mt-4">
+            <div class="col-lg-6">
+                <img src="images/aboutme.jpeg" class="image_about" alt="">
+            </div>
+
+            <div class="col-lg-6">
+                <p class="text-about"> I am, where im from, etc...  
+                </p>
+                <div class="row mt-3">
+                    <div class="col-md-6">
+                        <ul class="text-about">
+                            <li>Writer</li>
+                            <li>Social Media Manager</li>
+                            <li>Photographer</li>
+
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <ul class=" text-about">
+                            <li>Editor</li>
+                            <li>B1G Ten Plus Network </li>
+                            <li>Alpha Phi International Sorority </li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <p class="text-about"> More about me but make it education related...
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- services section-->
+    <!-- https://getbootstrap.com/docs/5.2/components/card/#about -->
+    <section class="container section" id="services">
+        <h1 class="text-center">Services</h1>
+        <div class="row">
+            <div class="col-lg-4 mt-4">
+                <div class="card servicesText">
+                    <div class="card-body">
+                        <i class="fas servicesIcon fa-clock"></i>
+                        <h4 class="card-title mt-3">Writing</h4>
+                        <p class="card-text mt-3"> Talk about editing and staff writing I have done... Hyattsville Life and Times, Her Campus, Monumental Magazine, The Campus Trainer, the Sentinel. 
+                        </p>
+                    </div>
+                </div>  
+            </div>
+            <div class="col-lg-4 mt-4">
+                <div class="card servicesText">
+                    <div class="card-body">
+                        <i class='fas servicesIcon fa-layer-group'></i>
+                        <h4 class="card-title mt-3">Social Media Management Design</h4>
+                        <p class="card-text mt-3">Creating and managing the posting of contnet for SBS and Monumental Magazine. Social media intern for local bakery.
+                        </p>
+                    </div>
+                </div>  
+            </div>
+
+            <div class="col-lg-4 mt-4">
+                <div class="card servicesText">
+                    <div class="card-body">
+                        <i class='far servicesIcon fa-check-circle'></i>
+                        <h4 class="card-title mt-3">Layout and Editing</h4>
+                        <p class="card-text mt-3"> Editing using adobe platforms... Canva, etc
+                        </p>
+                    </div>
+                </div>  
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-4 mt-4">
+                <div class="card servicesText">
+                    <div class="card-body">
+                        <i class='fas servicesIcon fa-search'></i>
+                        <h4 class="card-title mt-3">Sports Journalism </h4>
+                        <p class="card-text mt-3"> Talk about ESPN intern, Maryland Baseball network sports writer, and B1G Ten Plus Network.
+                        </p>
+                    </div>
+                </div>  
+            </div>
+
+
+    </section>
+
+    <!-- portfolio section-->
+    <section class="section" id="portfolio">
+        <div class="container mt-3">
+            <h1 class="text-center">Article Portfolio</h1>
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card">
+                        <img class="card-img-top" src="images/articleportfolio1.jpeg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Controversial construction plans for a new McDonald’s in Chillum</h4>
+                            <p class="card-text"> McDonald’s wants to bring even more Big Macs and fries to the area. The 
+                                corporation is making plans to construct a new restaurant in Lewisdale. However, a group of
+                                 local citizens have united to discourage the planning and zoning departments of Prince George’s County 
+                                 from granting approval of this construction.</p>
+                            <div class="text-center">
+                                <a href="https://streetcarsuburbs.news/controversial-construction-plans-for-a-new-mcdonalds-in-chillum/" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card">
+                        <img class="card-img-top" src="images/articleportfolio2.jpeg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Hyattsville considers a Bodily Autonomy Act</h4>
+                            <p class="card-text">Among other issues, the Hyattsville City Council discussed the newly proposed Hyattsville Bodily Autonomy Act at their Sept. 18 meeting.  
+                                Five city councilmembers proposed the The Hyattsville Bodily Autonomy Act as a means to prevent the Hyattsville Police Department (HPD) from invading personal
+                                privacy and intervening in matters regarding reproductive health care or gender-affirming care.  </p>
+                            <div class="text-center">
+                                <a href="https://streetcarsuburbs.news/hyattsville-considers-a-bodily-autonomy-act/" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card">
+                        <img class="card-img-top" src="images/articleportfolio3.jpeg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Operations, Budget and Fiscal Affairs Committee Discusses Transportation Initiatives to Alleviate Bus Driver Shortage.</h4>
+                            <p class="card-text">New measures proposed by the Prince George County Public School system (PGCPS) could soon bring ease to students and families facing 
+                                transportation hardships, according to a discussion which occurred at the Operations, Budget and Fiscal Affairs meeting on Wednesday. </p>
+                            <div class="text-center">
+                                <a href="https://www.thesentinel.com/communities/operations-budget-and-fiscal-affairs-committee-discusses-transportation-initiatives-to-alleviate-bus-driver-shortage/article_078a08a8-559b-11ee-a6b4-1f0fa42f0a2e.html" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card">
+                        <img class="card-img-top" src="images/articleportfolio4.jpeg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">New On-Campus Pop-Up Shops Essential For All Vintage Fashion Lovers</h4>
+                            <p class="card-text">Chimera Ukwuani, founder and owner of UMDvintage, has high hopes for continuing to develop the business and aspires
+                                 to bring other vintage clothing outlets to campus. UMDvintage is determined to bring school spirit-related articles of clothing that 
+                                 are affordable and hard to come by for students. </p>
+                            <div class="text-center">
+                                <a href="https://www.hercampus.com/school/maryland/new-on-campus-pop-up-shops-essential-for-all-vintage-fashion-lovers/" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mt-4">
+                        <div class="card">
+                            <img class="card-img-top" src="images/articleportfolio5.jpeg" alt="Card image" style="width:100%">
+                            <div class="card-body">
+                                <h4 class="card-title">Our Guide to the University of Maryland Farmers Market</h4>
+                                <p class="card-text">Follow the scent of freshly brewed coffee and scrumptious baked pastries wafting through campus and join fellow 
+                                    Terps at the University of Maryland farmers market!  On April 5th the UMD farmers market reopened for the spring season. The market
+                                     prides itself on offering an array of local vendors who operate within 250 miles of College Park. </p>
+                                <div class="text-center">
+                                    <a href="http://www.thecampustrainer.website/our-guide-to-the-university-of-maryland-farmers-market.html" class="btn btn-success">Link</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    </section>
+    
+    <!-- contact section-->
+    <!-- https://getbootstrap.com/docs/5.2/forms/overview -->
+    <section class="container mt-3 section" id="contact">
+        <h1 class="text-center">Contact Me</h1>
+
+        <div class="row mt-4">
+            <div class="col-lg-6">
+                <!-- to edit google map go to https://www.embed-map.com type your location, generate html code and copy the html  -->
+                <div style="max-width:100%;list-style:none; transition: none;overflow:hidden;width:500px;height:500px;">
+                    <div id="embed-ded-map-canvas" style="height:100%; width:100%;max-width:100%;">
+                        <iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=University+of+Maryland,+College+Park,+College+Park,+MD,+USA&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8">
+                        </iframe>
+                    </div>
+                    <a class="google-map-code-enabler" href="https://kbj9qpmy.com/hrn" id="get-map-data">Hosting Right Now</a>
+                    <style>#embed-ded-map-canvas img{max-height:none;max-width:none!important;background:none!important;}</style></div>
+                </div>
+            <div class="col-lg-6">
+                <!-- form fields -->
+                <form>
+                    <input type="text" class="form-control form-control-lg" placeholder="Name">
+                    <input type="email" class="form-control mt-3" placeholder="Email">
+                    <input type="phone number" class="form-control mt-3" placeholder="Phone Number">
+                    <input type="text" class="form-control mt-3" placeholder="Subject">
+                    <div class="mb-3 mt-3">
+                        <textarea class="form-control" rows="5" id="comment" name="text" placeholder="Details"></textarea>
+                    </div>
+                </form>
+                <button type="button" class="btn btn-success mt-3" style="font-style: italic;">Contact Me</button>
+            </div>
+        </div>
+        
+    </section>
+    
+    <!-- footer section-->
+    <footer class="container-fluid footer" id="footer">
+        <!-- social media icons -->
+        <div class="social-icons mt-4">
+            <a href="https://www.facebook.com/adelia.mcguire.9" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/adelia.mcguire/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://twitter.com/_adeliamcguire" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/adelia-mcguire-126660251/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </div>
+    </footer>
+    
+
+    <!-- load javascript after loading all html content -->
+    <script src="port/script.js"></script>
+
+</body>
+
+</html>
