@@ -9,14 +9,30 @@
     
 /* header background image */
 .bgimage {
-    height:100vh;
-    background: url("images/background4.jpeg");
+    height:70vh;
+    background: url("images/maincolor.jpeg");
     background-size:cover;
     position:relative;
     padding: 0;
     margin: 0;
 }
-/* text css above header image*/
+
+.navbar-brand {
+    font-family: 'serif';
+    color:  #557235;
+}
+.navbar-brand:hover {
+    color:  #aa9f89;
+}
+.nav-link {
+    font-family: 'serif';
+    color:  #557235;
+}
+
+.nav-link:hover{
+    color:  #aa9f89;
+} 
+
 .header_title {
     padding-top: 10rem;
     font-size: 4.5rem;
@@ -34,7 +50,28 @@
     color: #aa9f89;
 }
 
+.resume{
+    font-family: 'serif';
+    text-align: center;
+
+}
+
+.resume-header {
+    font-size: 200%;
+}
+
+.resume-content {
+    font-style: oblique;
+}
+
 .text-center {
+    font-family: 'serif';
+    color: #557235;
+}
+
+.text-center-title {
+    background-color: #ece7df;
+    text-align: center;
     font-family: 'serif';
     color: #557235;
 }
@@ -49,7 +86,15 @@
 }
 
 .btn {
-    color:#b4ab98;
+    background-color: #b5ad97;
+    border-color:#90a37b;
+    color:white;
+    font-family: 'serif';
+    
+}
+
+.btn:hover {
+    background-color:#90a37b;
 }
 
 .navbarDark {
@@ -92,6 +137,6 @@
 }
 
 .footer {
-    background-color: #808080;
+    background-color: #ece7df;
     text-align: center;
 }
