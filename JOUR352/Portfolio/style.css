@@ -7,14 +7,19 @@
     padding-bottom: 4rem;
 }
     
-/* header background image */
+/* background image */
 .bgimage {
-    height:70vh;
+    height:100vh;
     background: url("images/maincolor.jpeg");
     background-size:cover;
     position:relative;
     padding: 0;
     margin: 0;
+}
+
+/* navbar */
+.navbar-toggler-icon {
+    color: black;
 }
 
 .navbar-brand {
@@ -33,10 +38,26 @@
     color:  #aa9f89;
 } 
 
-.header_title {
+.navbar-light {
+    background:white;
+}
+
+/* header */
+h1{
     padding-top: 10rem;
     font-size: 4.5rem;
 }
+h2 {
+    background-color: #ece7df;
+    text-align: center;
+    font-family: 'serif';
+    color: #557235;
+}
+h3 {
+    font-size: x-large;
+}
+
+/* header alterations */
 .header_desc {
     font-size: 2rem;
 }
@@ -49,7 +70,22 @@
     transform: translate(-50%, -50%);
     color: #aa9f89;
 }
+/* body */
+body {
+        border: 20px solid #ece7df
+      }
 
+/* about */
+.text-about {
+    font-family: 'serif';
+    font-size: larger;
+}
+
+.image_about {
+    width: 100%;
+}
+
+/* resume */
 .resume{
     font-family: 'serif';
     text-align: center;
@@ -64,61 +100,55 @@
     font-style: oblique;
 }
 
+/* services */
+.servicesText:hover {
+    border: 1px solid
+}
+
+/* text */
 .text-center {
     font-family: 'serif';
     color: #557235;
 }
 
-.text-center-title {
-    background-color: #ece7df;
-    text-align: center;
-    font-family: 'serif';
-    color: #557235;
+.container-section {
+    padding-top: 2%;
 }
 
-.text-about {
-    font-family: 'serif';
-    font-size: larger;
-}
-
-.image_about {
-    width: 100%;
-}
-
+/* button */
 .btn {
     background-color: #b5ad97;
     border-color:#90a37b;
     color:white;
     font-family: 'serif';
-    
 }
 
 .btn:hover {
     background-color:#90a37b;
 }
 
-.navbarDark {
-    background: #000;
-}
-
-
+/* icons */
  .social-icons {
     font-size: 36px;
     cursor: pointer;
 }
+
 .fa-facebook:hover,
 .fa-instagram:hover,
 .fa-twitter:hover,
 .fa-linkedin:hover
+
 {
     color: #fff;
 }
+
 .fab {
     color: #000000;
 }
 
+/* cards */
 .servicesText.card {
-    height: 280px;
+    min-height: 280px;
     cursor: pointer;
   }
 .servicesIcon {
@@ -132,10 +162,8 @@
 .card:hover .servicesIcon {
     color: #90a37b;
 }
-.servicesText:hover {
-    border: 1px solid #557235;
-}
 
+/* footer */
 .footer {
     background-color: #ece7df;
     text-align: center;
