@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title><!--adelia mcguire jour352 midterm code--></title>
+    <meta name="description" content="">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="midterm.css">
+</head>
+<body>
+<header>
+    <div class="top-picture">
+        <img src="media/00-hero.png" class="img-fluid">
+    </div>    
+    <div class="top">
+        <div class="container">
+            <p class="header">When you sign up for digital service, sometimes they make it difficult to unsubscribe.</p>
+            <p class="header">You see these tricks every time you order a product online, use a search engine, sign up for a streaming service, or
+            join a social media community. </p>
+            <p class="header">They’re so common in subscription and shopping websites that they have a name: Dark Patterns.</p>
+        </div>
+    </div>
+
+<!--intro-->
+</header>
+<!--main-->
+<section class="intro">
+    <div class="container">
+        <h1>HOW COMPANIES MAKE IT DIFFICULT TO UNSUBSCRIBE</h1>
+        <p id="subhead">I unsubscribed from 16 online services and documented the ways companies made it, knowingly (or unknowingly),
+            <em>challenging.</em>
+        </p>
+        <p id="byline">BY CAROLINE SINDERS, ILLUSTRATIONS BY TYNESHA FOREMAN, DESIGN/CODE BY MATT DANIELS</p>   
+    </div> 
+</section>
+
+<div class="container">
+    <p>Have you ever signed up for an email newsletter and decided to unsubscribe only to discover a few weeks later
+        you’re still signed up? That’s a dark pattern.</p>
+    <p>Have you ever opened a website and been forced to agree to a series of pop-ups asking if you opt-in to ad
+        tracking? That’s a cookie banner and they are riddled with dark patterns.</p>
+    <p>Or perhaps you’ve been shopping on a website with a countdown timer, reminding you a sale is about to end. Or
+        maybe there’s a warning that the item is low in stock. Those are dark patterns.</p>
+    <p>Sometimes it's intentionally created by companies; other times it’s an unintentional mistake by web
+        designers. And dark patterns are not always easy to spot, regardless of your own understanding of
+        technology: even experts regularly fall for dark patterns.Princeton University ran a study in 2019 where
+        they scanned over 11,000 shopping sites and found 1,818 examples of dark patterns on 11% of the websites.
+        The research also found that “shopping websites that were more popular, according to Alexa rankings, were
+        more likely to feature dark patterns.”</p>    
+<!---->
+
+    <p>I wanted to explore the malicious, confusing, and deceitful things that occur after signing up for digital
+        services, as well as how design can nudge us to forget about a free trial or accidentally sign up for things
+        that we didn’t intend to.</p>
+    <p>Dark patterns are often most egregious with subscriptions and free trials, especially when attempting to
+        cancel, so I focused on those.</p>
+    <p>I ran an experiment from August 2 to October 4, 2022, signing up for 16 different services and immediately
+        tried to unsubscribe or cancel.</p>
+</div>
+
+<!-- results -->
+    <div class="container">
+        <h2>THE RESULTS</h2>
+        <p>I recorded all the different kinds of problems that occurred, and all the websites engaged in bad or
+            confusing tactics at some point, even after successfully unsubscribing.</p>
+        <p>I found 20 instances of dark patterns across all 16 companies—let’s take a look at the major types.</p>        
+    </div>
+
+<div class="black-area">
+<!-- // -->
+
+<!--01-amazon.mp4-->
+<!--note: the video syntax you will use for each of the following video files will be:
+	<video src="{filename}" autoplay loop class="img-fluid"></video>-->
+    <div class="container results-section">
+        <div class="row justify-content-around align-items-center">
+            <div class="col-md-6">
+                <h3>PURCHASING THAT CREATES AN AUTOMATIC SUBSCRIPTION</h3>
+                <p>Some of the websites I encountered created automatic subscriptions to their sites, just by me placing an item
+                    in a basket and checking out. This is a kind of dark patterns practice also documented by Princeton
+                    University in their research.</p>
+            </div>
+            <div class="col-md-6">
+                <video src="./media/01-amazon.mp4" autoplay loop class="img-fluid"></video>
+            </div>
+        </div>
+    </div>
+    
+    <!-- // -->
+    <!--02-account.mp4-->
+    
+    <div class="container results-section">
+        <div class="row justify-content-around align-items-center">
+            <div class="col-md-6">
+                <h3>HAVING TO CREATE AN ACCOUNT TO UNSUBSCRIBE FROM EMAILS</h3>
+                <p>Care2Petition didn’t require me signing up with the platform to use it to sign different petitions but it
+                    clearly saved all of my information to send me lots of emails. However, the only way to stop the emails was
+                    to then sign up with a profile for Care2Petition to then cancel the subscriptions to stop receiving emails.</p>    
+        </div>
+        <div class="col-md-6">
+            <video src="./media/02-account.mp4" autoplay loop class="img-fluid"></video>
+        </div>
+    </div>
+    </div>
+    
+    <!-- // -->
+    <!--03-cancel.mp4-->
+    
+    <div class="container results-section">
+        <div class="row justify-content-around align-items-center">
+            <div class="col-md-6">
+                <h3>PRODUCT THAT CONFUSINGLY LABEL "CANCEL" OR "UNSUBSCRIBE"</h3>
+                <p>Some websites that are subscription-based hide the cancellation flow under a new name: “auto-renew” or “edit
+                    plan.” With Daily Harvest, Express VPN and Vimeo, there isn’t a button or area that says “cancel.” Instead a
+                    user has to look for “auto-renew” and turn off “auto-renew” payments, which effectively cancels the
+                    subscription. This kind of naming is confusing, adding unnecessary friction to the cancellation process.</p>    
+        </div>
+        <div class="col-md-6">
+            <video src="./media/03-cancel.mp4" autoplay loop class="img-fluid"></video>
+        </div>
+    </div>
+    </div>
+
+    <!-- // -->
+    <!--04-phone.mp4-->
+    <div class="container results-section">
+        <div class="row justify-content-around align-items-center">
+            <div class="col-md-6">
+                <h3>PHONE CALL TO CANCEL (OR SOMETIMES, CHAT WITH A PERSON OR BOT TO CANCEL)</h3>
+                <p>This kind of cancellation process, also labeled a dark pattern by Princeton University and the FTC, creates a
+                    more difficult and longer process to cancel as a user has to call or text chat with a customer service
+                    representative to initiate the cancellation process. As we discovered, in some cases, it can take over 15
+                    minutes to create a cancellation, or having to place multiple phone calls to start the cancellation process.</p>    
+            </div>
+        <div class="col-md-6">
+            <video src="./media/04-phone.mp4" autoplay loop class="img-fluid"></video>
+        </div>
+    </div>
+    </div>
+   
+    <!-- // -->
+    <!--05-emails.jpg-->
+    
+    <div class="container results-section">
+        <div class="row justify-content-around align-items-center">
+            <div class="col-md-6">
+                <h3>KEEPING YOUR EMAIL POST-CANCELLATION TO SEND SPAM AND ADS</h3>
+                <p>Netflix, Hulu, and Paramount Plus all sent emails to my account after canceling, spamming and pleading to
+                    return. While this isn’t technically a dark pattern, it potentially violates data protection laws in other
+                    countries, and it’s just a bad and invasive practice. Once a user has canceled a subscription, experts
+                    suggest to not keep emailing them.</p>
+            </div>
+        <div class="col-md-6">
+            <img src="./media/05-emails.jpeg" class="img-fluid"></img>
+        </div>
+    </div>
+    </div>
+
+    
+    <!-- // -->
+    <div class="container results-section">
+        <div class="row justify-content-around align-items-center">
+            <div class="col-md-12">
+        <h3>HOWEVER, THE MOST EGREGIOUS ONE: VIMEO.</h3>
+    </div>
+</div>
+
+    </div>
+    <!--06-vimeo-1.png-->
+    <div class="container results-section">
+        <div class="row justify-content-around align-items-center">
+            <div class="col-md-6">
+        <p>What makes Vimeo the most egregious is both the amount of dark patterns and the kinds of dark patterns. Vimeo
+            presents its default subscription as a month-to-month payment, but it actually locks consumers into a
+            yearlong, non-refundable subscription. The actual month-to-month plan is buried in the design.</p>
+        <p>Harry Brignull’s Deceptive Design twitter account about dark patterns found something similar that Adobe had
+            done in February 2022, which the company has removed. In February 2022, internet users noticed that Adobe
+            had tricked users into a similar yearlong contract, but would offer only refunds of 3-6 months. Adobe, like
+            Vimeo, misled users into signing up for yearlong contracts.</p>
+        </div>
+        <div class="col-md-6">
+            <img src="./media/06-vimeo-1.png" class="img-fluid"></img>
+        </div>
+    </div>
+    </div>
+
+    <!---->
+    <!--06-vimeo-2.mp4-->
+    <div class="container results-section">
+        <div class="row justify-content-around align-items-center">
+            <div class="col-md-6">
+        <h4>Vimeo went even further by adding numerous steps to unsubscribe.</h4>
+        <p>The unsubscribe button is unintuitively buried within the “billing” section (rather than “manage
+            subscription”). To cancel, you confusingly click “turn off auto-renew,” rather than the obvious “cancel
+            subscription.”</p>
+        <p>The cancellation process concludes with a survey, where you again have to click, “turn off auto-renew.”
+            Surveys often come after the cancellation process; users could think, “Oh I've canceled!” but they still
+            have to click “turn off auto-renew” again.</p>
+        </div>
+        <div class="col-md-6">
+            <video src="./media/06-vimeo-2.mp4" autoplay loop class="img-fluid"></video>
+        </div>
+    </div>
+    </div>
+    <!---->
+    <!--06-vimeo-3.mp4-->
+    <div class="container results-section">
+        <div class="row justify-content-around align-items-center">
+            <div class="col-md-6">
+        <p>Part of the issues with dark patterns is this gray area of “clarity.” After rooting around for it, I did find
+            fine print for Vimeo’s year long subscription dark pattern. Yet so much of the sign up experience had
+            pre-selected the yearlong “subscription.” Casual users would have had to really read carefully to know what
+            they were signing up for and spend the extra effort to unselect those pre-selected choices.</p>
+        <p>Compare my experience with Vimeo to the 15 other services that I tested; only Vimeo locked me into a yearlong
+            contract (Ancestry.com has a similar yearlong contract, but it wasn’t guiding users to a pre-selected,
+            yearlong subscription).</p>
+        <p>Additionally, Vimeo hides its free account, a design choice that has remained since at least 2020.
+            Collectively, these multiple dark patterns make Vimeo an egregious actor in this experiment.</p>
+        </div>
+        <div class="col-md-6">
+            <video src="./media/06-vimeo-3.mp4" autoplay loop class="img-fluid"></video>
+        </div>
+    </div>
+    </div>
+    <!-- // -->
+</div>
+
+
+<div class="container">
+    <h2>IN TOTAL, I LOST: $330.60 AND 57 MINUTES AND 31 SECONDS TRYING TO UNSUBSCRIBE.</h2>
+    <p>The only one that refunded me was Adobe. None of the websites reminded you prior to the trial being over that
+        the trial would be over. Even ones that said they would, like Deliveroo Silver, did not.</p>    
+</div>
+<!--graphics code -->
+
+<div class="container">
+ <iframe title="I lost a lot of money. Like, a lot." aria-label="Table" id="datawrapper-chart-RwGJ1"
+                    src="https://datawrapper.dwcdn.net/RwGJ1/6/" scrolling="no" frameborder="0"
+                    style="width: 0; min-width: 100% !important; border: none;" height="451" data-external="1"></iframe>
+                <script type="text/javascript">!function () { "use strict"; window.addEventListener("message", (function (a) { if (void 0 !== a.data["datawrapper-height"]) { var e = document.querySelectorAll("iframe"); for (var t in a.data["datawrapper-height"]) for (var r = 0; r < e.length; r++)if (e[r].contentWindow === a.source) { var i = a.data["datawrapper-height"][t] + "px"; e[r].style.height = i } } })) }();
+                </script> 
+
+</div>
+<!---->
+
+<div class="container">
+    <p>The websites that took the longest to cancel subscriptions were the ones that required phone calls: the New
+        York Times took 17 minutes and 36 seconds to cancel, and the Boston Globe took 3 phone calls (which was
+        undergoing technical difficulties in order to cancel, hence the three phone calls). Savage Fenty required
+        either a phone call or taking a person via a chat interface online, which took 7 minutes.</p>
+    <p>Netflix, Hulu and Paramount Plus had no dark patterns and a straightforward way to cancel, which took under 1
+        minute. But canceling via the website was not necessarily always faster.</p>
+    <p>Once I googled “how to cancel” ExpressVPN (which is itself a dark pattern), it took 55 seconds. The
+        ExpressVPN process was riddled with dark patterns: the canceling process was called “auto-renew” and there
+        wasn’t any documentation in their FAQ on how to cancel. By having to Google on how to cancel, that itself,
+        is also a dark pattern.</p>
+</div>
+<!---->
+
+<!--carousel code below-->
+<div class="container">
+	 <div id="carousel" class="carousel carousel-dark slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="media/carousel/cancel_1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="media/carousel/cancel_2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="media/carousel/cancel_3.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="media/carousel/cancel_4.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="media/carousel/cancel_5.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="media/carousel/cancel_6.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="media/carousel/cancel_7.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="media/carousel/cancel_8.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="media/carousel/cancel_9.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="media/carousel/cancel_10.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="media/carousel/cancel_11.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            </button>
+        </div>
+</div>
+
+<!--container code-->
+<div class="container">
+    <h2>I ALSO ENCOUNTERED A LOT OF FRICTION WHEN TRYING TO CANCEL.</h2>
+    <p>Nearly all had confirm-shaming (please stay! Are you sure you want to leave?) and some, like Paramount Plus
+        and Adobe, offered discounts and deals instead of canceling.</p>
+    <p>Some cancellation processes took multiple steps, such as confirming multiple times that I wanted to cancel.
+        Some buried their cancellation processes deep in their websites that were difficult to find. A few, like
+        ExpressVPN, Daily Harvest and Vimeo, called their cancellation processes “auto-renew,” adding to confusion.</p>
+    <br>
+    <h2>WHAT ARE THE ISSUES WITH DARK PATTERNS, REALLY?</h2>
+    
+    <p>Dr. Jennifer King, a fellow with Stanford University who researches dark patterns and privacy, described the
+        multiple issues with dark patterns around contracts and subscriptions. For example, why in certain products
+        is it so much more difficult to unsubscribe than to subscribe? Should these subscribe and unsubscribe flows
+        be similar?</p>
+    <p>“The key concept that I keep seeing discussed is proportionality; it shouldn't be disproportionately harder
+        to cancel, as opposed to signing up for something,” said Dr. King, in response to my experience with Vimeo.
+        It’s not that difficult for a company to absolve a contract, something Dr. King mentioned as well. She
+        explained, “[Companies are] not bearing any costs by you canceling other than depriving them of that
+        revenue.” This kind of proportionality between subscribing and unsubscribing is something the FTC is
+        actively looking into and proposing new rules around to make it easier to end subscriptions.</p>
+    <p>King pointed out that the part of the issue is companies framing this as a subscription, when it’s actually
+        closer to a contract. King said, “The fact that you're on the hook for the whole year just because you
+        didn't hit the cancel button in time to end a free trial.”</p>
+    <p>Dark patterns, manipulative design, and confusing design have a multiplicity of harms, including impacting
+        consumers decision making and behaviors, along with affecting competition and markets. Over a video
+        conference call, Andreas Jespersen, the Interim Director for the CMA’s Behavioral Hub, unpacked why this is
+        a concern for the CMA.</p>    
+</div>
+
+<!-- // -->
+<!--blockquote https://getbootstrap.com/docs/5.3/content/typography/#blockquotes -->
+<div class="container">
+    <blockquote class="blockquote">
+    <p class="blockquote">“Our worry is that if you're a large, firm, and you own many sort of different and interconnected types of
+        businesses, so if you own both a in a browser and a phone for instance, or you own a, you develop computers
+        and games… we think you can use choice architecture to guide consumers from one part of your product to
+        product the most interesting and then to other parts of product giving subsets of your business an unfair
+        advantage over competitors who don't have that initial ability to guide consumers by having owning the
+        device or owning the platform or whatever,” he explained.</p>
+    </blockquote>
+</div>
+
+<!-- // -->
+<div class="container">
+    <p>It has to be looked at in terms of understanding fairness, advantages and disadvantages, along with unfair
+        price advantages that can harm a lot of consumers and affect pricing. “From the viewpoint of the individual
+        consumer, the largest problem with choice architecture or dark patterns is basically its ability to stop or
+        unduly influence your decisions when you're online. We know from research that these types of dark
+        patterns...can make you buy stuff at a high price. They can keep you on for longer than you wanted in a
+        subscription; they can make you give up more data than you initially wanted,” Jepsersen stated.</p>
+    <p>At present, the CMA has done a variety of studies and use cases, including two that are focused on
+        subscriptions. They worked with PlayStation and found that it was difficult for consumers to understand what
+        they signed up for and consumers felt they'd stayed on longer than they wanted to. Jepsersen explained how
+        the CMA worked with the company to reach an agreement that they would change their security practices to
+        sort of better accommodate the choice architecture to how the consumers naturally interacted with the
+        subscriptions.</p>
+    <p>But, also importantly, I would argue that user frustration, wasted time and money are pretty big harms.
+        University of Washington Law professor Ryan Calo has argued that dark patterns can result in three kinds of
+        harm typologies: economic harm, privacy harm and vulnerability as autonomy harm. Similarly, the same authors
+        behind the Princeton E-commerce study, found similar harms but with cognitive burden instead of
+        vulnerability as autonomy.</p>
+    <p>What’s important to remember, and consider, with dark patterns, is not to view this as an individualistic
+        threat, but one against large group —of people. It doesn’t matter if you personally were not tricked or
+        weren’t mad at the interaction but it matters that the interaction themselves are happening, and that they
+        are designed to target users, corporate our user agency, and impact our choices. It also matters how
+        prevalent dark patterns are, too. A European Union commissioned report on dark patterns found 97% of the
+        most popular websites and apps used by EU consumers deployed at least one dark pattern. Dark patterns don’t
+        have to be a norm of the web, even if they have become so prevalent right now.</p>
+    <p>Dark patterns don’t affect all users equally- users that speak different languages, or who are using software
+        in a new or secondary language, or are new to technology, are disproportionately affected by dark patterns.
+        That same European Union report found that “vulnerable consumers were more likely to make inconsistent
+        choices (50.89%) than average consumers (47.24%)” when exposed to dark patterns. Their report and experiment
+        tested 7,000 European Union based netizens across different language blocs. Equally important, their found
+        dark patterns are easier to spot if you know what they are or have a background in user experience design. A
+        person shouldn’t have to be a UX designer to navigate the web just to avoid dark patterns, confusion and
+        manipulation. That isn’t a fair web.</p>
+    
+</div>
+
+<!-- // -->
+<div class="container">
+    <h2>EASY TO UNSUBSCRIBE AS SUBSCRIBE</h2>
+    <p>Across conversations with different experts, researchers and regulators, this is a refrain I hear again and
+        again, given how low the barrier is to engage with something, it should be equally low to nullify that dark
+        pattern. This is something researchers against dark patterns advocate for, with Access Now and the Web
+        Foundation’s forthcoming “Dos and Dont’s of Deceptive Design,” along with dark patterns experts like Jen
+        King, mentioned above. It should be easy to unsubscribe as it is to subscribe, something the FTC is focusing
+        on in terms of their own dark patterns work and investigations. Shopify has even published an article on 12
+        Dark Patterns to avoid for product designers, with nearly identical advice to don’t do this, except they
+        call this practice the ‘roach motel.’</p>
+</div>
+
+
+<!-- // -->
+<div class="container">
+    <h2>DARK PATTERNS REGULATION EXISTS AND MORE IS COMING</h2>
+    <p>What can be done about dark patterns? We are entering an era of dark patterns regulation, and investigation.
+    </p>
+    <p>In the EU, regulators like the Norwegian Consumer Council have been focusing on dark patterns and their harms
+        since 2018, along with regulation like the EU’s Digital Markets Act with two articles focused on dark
+        patterns and the Digital Services Act mentioning dark patterns in their provisional text. Different
+        regulators found various dark patterns in cookie banner's that were implemented because EU’s GDPR; making
+        these new banners, ironically, to be against the law itself, violating user consent and co-opting user
+        privacy, resulting in fines. Other regulators, like the UK’s Competitions and Markets Authority are
+        investigating dark patterns to see if these design based confusion and manipulative patterns affect fair
+        competition. Jespersen emphasized, “[the CMA] wants to use the full extent of our powers to go through
+        consumer enforcement if we find appropriate problems.”</p>
+    <p>Even in the US, dark patterns related regulation is ramping up, with the FTC vowing to ramp up enforcement on
+        dark patterns that trick or trap users into subscriptions in 2021, and California’s state law in 2018
+        mentioning dark patterns. In early November, the FTC fined phone service provider Vonage $100 million
+        dollars for cancellation based dark patterns. Vonage’s dark patterns were identical to some of the dark
+        patterns I found for this article. Via a court order, the FTC’s has gotten Vonage to agree to simplify their
+        cancellation process and to explicitly stop using dark patterns.</p>
+    <p>With this recent Vonage case, it’s clear the tide is changing. A user should not have to be a design expert
+        to buy a fair priced item or avoid hidden fees, accidental subscriptions, or give up more of their data
+        without their choice. Difficult to find or access privacy settings on social networks is problematic, so is
+        waiting 20 minutes to cancel a newspaper subscription and so additional fees from airlines that ultimately
+        misrepresent the price. It might be personal what you or your community considers more problematic or
+        harmful, but all dark patterns are problematic.</p>
+    <p>To put this into context, what if every experiment of mine had resulted in 15 minutes of headache to
+        unsubscribe, along with secret or hidden fees of hundreds of dollars of yearly subscriptions instead of
+        monthly ones? 14 experiments would have resulted in over three and half hours of attempting to cancel, and
+        double or triple the amount of money I lost.</p>
+    <p>This is also something King echoed, “You have as a consumer, the right to cancel something, to not want to
+        spend your money in a particular way, just because they can control the entire kind of digital environment
+        in which you're doing business that you don't somehow have those rights is is just fundamentally wrong.”</p>
+    <p>It's the trickery and subterfuge of dark patterns that make them feel emotionally insidious. But regardless,
+        economic harm, privacy harm, one’s vulnerability being targeted and manipulated along with the cognitive
+        burden of navigating dark patterns, is what makes dark patterns writ large such an urgent issue. Outside of
+        the U.S., these kinds of harms are seen as urgent legal issues, where European consumers have a right to
+        data protection and consumer protection. But, all people, regardless of which country they live in, deserve
+        to live on an internet where their time and money are not wasted, and their privacy is not compromised
+        simply because a product or company can trick them.</p>
+</div>
+
+
+<!--footer-->
+<footer>
+    <b>This work is reproduced for course education only. <br>For the original article, visit <a
+        href="http://pudding.cool">pudding.cool</a>.</b>
+</footer>>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+
+</body>
+</html>

@@ -1,0 +1,132 @@
+/* adelia mcguire midterm css code */
+header{
+    min-height: 100vh;
+}
+
+.results-section{
+    min-height:80vh;
+  }
+
+.row{
+  padding-top: 25%;
+  padding-bottom: 25%;
+}
+
+.top-picture {
+  background-color: #121212;
+}
+
+.top{
+    background-color: #121212;
+}
+
+.header{
+  text-align: center;
+  font-family: 'Inconsolata', monospace;
+  color: #FCFDFE;
+}
+
+.intro{
+  text-align: center;
+}
+
+.container{
+    padding-bottom: 5%;
+    padding-top: 5%;
+    width: 55%; 
+}
+
+p{
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+h1{
+    font-family: 'Inconsolata', monospace;
+    font-size: 4em;
+    font-weight: 700;
+    padding-bottom: 5%;
+}
+
+h2{
+    font-family:'Inconsolata', monospace;
+    font-size: 1.75em;
+    font-weight: 700;
+    padding-bottom: 5%;
+}
+
+h3{
+    font-family:'Inconsolata', monospace;
+    font-size: 1.5em;
+}
+
+h4{
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5em;
+}
+
+#subhead{
+  font-family:'Inconsolata', monospace;
+  font-weight: 500;
+  padding-bottom: 5%;
+}
+
+#byline{
+  letter-spacing: 1px ;
+  font-family:'Inconsolata', monospace;
+  font-weight: 300;
+  font-size: .85em;
+}
+
+.blockquote{
+  font-family:'Inconsolata', monospace;
+  font-weight: 700;
+  font-size: 1em;
+  color: #DB5461;
+}
+
+/* black section*/
+.black-area{
+    background-color: #121212;
+    color: #FCFDFE;
+}
+
+/* hyperlink */
+a{
+    color: #DB5461;
+    text-decoration: none;
+}
+
+footer{
+  font-family:'Inconsolata', monospace;
+  text-align: center;
+  padding: 5%;
+}
+
+
+@media (max-width: 576px) {
+    
+    .container {
+      width: 95%;
+    }
+
+    h1{
+      font-size: 2em;
+      font-weight: 800;
+    }
+
+    footer{
+      font-size: .85em;
+    }
+  }
+
+@media (max-width: 768px) {
+    .container {
+      width: 75%;
+    }
+
+    h1{
+      font-size: 3em;
+    }
+  }
