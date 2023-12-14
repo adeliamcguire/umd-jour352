@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+  <style>
+
+    .grid-container {
+      display: grid;
+      grid-template-columns: 1fr auto 1fr; /* Three columns with the middle column auto-sized */
+      grid-gap: 10px; /* Adjust the gap as needed */
+      text-align: center; /* Center-align the text within the center column */
+    }
+
+    @media (max-width: 768px) {
+      /* Adjust the layout for tablets and smaller screens */
+      .grid-container {
+        grid-template-columns: 1fr; /* Single column layout for tablets and smaller screens */
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="grid-container">
+    <div>
+      <p>Header header header</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+    </div>
+    <div>
+      <p>600 × 400</p>
+      <p>Lorem ipsum dolor sit amet consectetur adlpsicing elit...</p>
+    </div>
+    <div>
+      <p>Header header header</p>
+      <p>600 × 400</p>
+    </div>
+  </div>
+
+
+    
+
+</body>
+</html>
